@@ -219,7 +219,7 @@ elif page == "📊 Dataset":
 
     if search:
      result = df[df["Name"].str.contains(search, case=False)]
-    st.dataframe(result)
+    
 
 
 
